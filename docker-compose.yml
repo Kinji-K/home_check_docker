@@ -13,3 +13,4 @@ services:
         - ./working:/opt/working
      ports:
         - 5555:5555
+     restart: always
